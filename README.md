@@ -1,10 +1,10 @@
 ---
 title: Iris
 emoji: 🐨
-colorFrom: red
-colorTo: blue
+colorFrom: green
+colorTo: pink
 sdk: gradio
-sdk_version: 6.0.1
+sdk_version: 6.0.2
 app_file: app.py
 pinned: false
 license: apache-2.0
@@ -31,4 +31,3 @@ To get better results, on our domain task, gen Z slang, we can shift our focus f
 
 ### References
 [1] Unsloth. "LoRA Hyperparameters Guide." Unsloth Documentation, https://docs.unsloth.ai/get-started/fine-tuning-llms-guide/lora-hyperparameters-guide. Accessed 3 Dec. 2025.
-
