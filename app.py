@@ -127,8 +127,8 @@ def chat(message, history):
 # Create Gradio ChatInterface
 demo = gr.ChatInterface(
     fn=chat,
-    title="Llama 3.2 3B Fine-tuned Chat",
-    description=f"Chat with Llama 3.2 3B using Hugging Face Transformers (CPU inference)\n\nModel: `{MODEL_REPO}`",
+    title="Llama 3.2 1B Fine-tuned with Fine Tome Chat",
+    description=f"Chat with Llama 3.2 1B using Hugging Face Transformers (CPU inference)\n\nModel: `{MODEL_REPO}`",
     examples=[
         "Explain what boolean operators are and how they work in programming.",
         "What is the difference between short-circuit evaluation and normal evaluation?",
