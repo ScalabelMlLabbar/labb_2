@@ -9,7 +9,7 @@ from loguru import logger
 # 1. "HuggingFaceTB/SmolLM2-1.7B-Instruct" - Small, fast, no auth required
 # 2. "meta-llama/Llama-3.2-3B-Instruct" - Better quality but requires HF login
 # 3. "mistralai/Mistral-7B-Instruct-v0.3" - Larger, better quality
-MODEL_REPO = "SaiBon99/llama-finetuned-finetome"
+MODEL_REPO = "igobl/Llama-3.2-1B-Instruct-bnb-4bit"
 
 logger.info(f"Loading model from {MODEL_REPO}...")
 
